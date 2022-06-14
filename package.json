@@ -21,5 +21,8 @@
   "homepage": "https://github.com/cynthiateeters/JAMStack-blog-starter#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1"
+  },
+  "dependencies": {
+    "luxon": "^2.4.0"
   }
 }
