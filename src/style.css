@@ -322,7 +322,7 @@ header,
 }
 .snippet__meta {
   grid-area: meta;
-  color: var(--clr-neutral-300);
+  color: var(--clr-neutral-400);
 }
 
 .snippet__meta span {
