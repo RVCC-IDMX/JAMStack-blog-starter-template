@@ -4,6 +4,7 @@
   [plugins.inputs]
   cloudName = "cynthia-teeters"
   deliveryType = "upload"
+  uploadPreset = "blog"
 
   [[plugins]]
   package = "@netlify/plugin-lighthouse"
