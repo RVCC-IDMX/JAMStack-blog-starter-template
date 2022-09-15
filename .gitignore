@@ -5,6 +5,8 @@
 # build artefacts
 public
 css
+_tmp/
+*git/
 
 # secrets and errors
 .env
@@ -12,3 +14,6 @@ css
 
 # macOS related files
 .DS_Store
+
+# Local Netlify folder
+.netlify
