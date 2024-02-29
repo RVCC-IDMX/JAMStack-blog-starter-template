@@ -1,12 +1,12 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "src/assets/blog"
-public_folder: "/assets/blog"
+media_folder: "src/assets/portfolio"
+public_folder: "/assets/portfolio"
 collections:
-  - label: "Blog"
-    name: "blog"
-    folder: "src/blog"
+  - label: "Work"
+    name: "portfolio"
+    folder: "src/portfolio"
     create: true
     editor:
       preview: true

@@ -35,7 +35,7 @@
 }
 
 /* //////////////////////
-  RESET - source: https://piccalil.li/blog/a-modern-css-reset
+  RESET - source: https://piccalil.li/portfolio/a-modern-css-reset
   /////////////////////// */
 
 /* Box sizing rules */
@@ -228,10 +228,12 @@ html,
 body {
   height: 100%;
 }
+
 body {
   display: flex;
   flex-direction: column;
 }
+
 body > main {
   flex: 1 0 auto;
 }
@@ -317,9 +319,11 @@ header,
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
 .snippet__title {
   grid-area: title;
 }
+
 .snippet__meta {
   grid-area: meta;
   color: var(--clr-neutral-400);
@@ -383,6 +387,7 @@ header,
   font-weight: var(--fw-700);
   border: 2px solid var(--clr-primary-400);
 }
+
 .btn--primary:hover,
 .btn--primary:focus {
   background: var(--clr-primary-500);
